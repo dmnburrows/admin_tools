@@ -25,4 +25,8 @@ install_requires = [
                  'numpy'
 ]
 
-setup(**setup_args, install_requires=install_requires)
+
+
+
+if __name__ == '__main__':
+    setup(**setup_args, install_requires=install_requires)

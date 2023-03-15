@@ -12,4 +12,4 @@ def prac(x,y):
         """
 
     z=x+y
-    return(z)
+    return(z,y)

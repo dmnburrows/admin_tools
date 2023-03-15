@@ -1,6 +1,1 @@
-from . import admin_functions
-
-__all__ = [
-        'admin_functions'
-
-]
+from admin_tools_db.admin_functions import ad_tools

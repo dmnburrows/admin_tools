@@ -1,15 +1,32 @@
-###############################
 
-def prac(x,y):
+#================================    
+class ad_tools: 
+#================================    
     """
-        This function is a practice. 
-        
-   
-    Inputs:
+    Class to simulate spatial transciptomic spot data, where each spot contains a mixture of cells of different gene expression patterns.
     
-    Outputs:
-     
-        """
+    """
+    
+    #========================
+    def __init__(self):
+    #========================
+        self.n_clusts = 5
 
-    z=x+y
-    return(z,y)
+
+
+    def prac(self,x,y):
+        """
+            This function is a practice. 
+
+
+        Inputs:
+
+        Outputs:
+
+            """
+
+        z=x+y
+        return(z,y)
+    
+    
+    

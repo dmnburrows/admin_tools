@@ -1,1 +1,1 @@
-from admin_tools.admin_functions import ad_tools
+from admin_tools import admin_functions 

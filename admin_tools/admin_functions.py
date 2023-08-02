@@ -40,10 +40,30 @@ def check_log(file_name, string):
     """
 
     if os.path.isfile(file_name):
-        with open(file_name, 'r') as f:
+        with open(file_name, 'rb') as f:
             log = f.read()
         if string in log:
             return True
         else:
             return False
         
+
+#==========================
+def make_config(my_dict, json_name):
+#==========================
+    """
+    This function takes as input a dictionary of keys and values and writes them to a json file.
+
+    Inputs:
+        my_dict: dictionary of keys and values
+        json_name: name of json file to be written
+    """
+
+    #Make config files - GABA + GLU
+    import json
+
+    myJSON = json.dumps(my_dict)
+
+    with open(json_name, "w") as jsonfile:
+        jsonfile.write(myJSON)
+        print("Write successful")

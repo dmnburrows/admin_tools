@@ -1,6 +1,5 @@
 import os
 import numpy as np
-#check 6
 
 #================================
 def sort_2list(list1, list2):
